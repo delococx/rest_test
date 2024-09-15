@@ -1,0 +1,30 @@
+### Recuperar todas las películas
+GET http://localhost:3000/movies
+
+
+
+
+### Recuperar todas las películas por un género
+
+GET http://localhost:3000/movies/1
+
+
+### Recuperar todas las películas por un género
+GET http://localhost:3000/movies?genre=ACTION
+
+
+
+### Crear una película con POST
+POST http://localhost:3000/movies
+Content-Type: application/json
+
+
+
+### Crear una película con POST upadte
+### Actualizar una película
+PATCH http://localhost:3000/movies/1
+Content-Type: application/json
+
+{
+  "year": 2015
+}
